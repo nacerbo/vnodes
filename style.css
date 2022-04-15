@@ -1,0 +1,281 @@
+*{
+    font-family: 'Cairo', sans-serif;
+}
+.clear{
+    clear: both;
+    height: 0px;
+}
+/** ============================ HERO HEADER ============================= */
+.heroheader {
+    background: url('assets/BG.svg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+.heroheader nav{
+    padding-top: 55px;
+}
+.heroheader .logo{
+    float: left;
+    line-height: 1.5;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+.heroheader .navbar{
+    background: transparent !important;
+    position: relative;
+}
+.heroheader .navbar .navbar-brand{
+    color: #FFF;
+}
+.heroheader .navbar .nav-link{
+    color: #FFF !important;
+}
+.heroheader .navbar .nav-link:hover{
+    color: #78BBFF;
+}
+.heroheader .navbar-collapse.show, .heroheader .navbar-collapse.collapsing{
+    position: absolute;
+    top: 90px;
+}
+.navbar-toggler{
+    border: none;
+}
+.navbar-toggler span{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+.heroheader .herocontent {
+    margin-top: 30vh;
+}
+.heroheader .herocontent h2{
+    line-height: 1.5;
+}
+.heroheader .herocontent .cost-title {
+    color: #C41047;
+    font-size: 2.25rem;
+    font-weight: 900;
+    font-family: "Cairo Black", sans-serif;
+}
+.heroheader .herocontent .main-title{
+    color: #FEFEFD;
+    font-size: 1.75rem;
+}
+.heroheader .herocontent .main-title .mnode{
+    font-weight: 900;
+    font-family: "Cairo Black", sans-serif;
+    text-transform: uppercase;
+}
+.heroheader .herocontent .subtitle{
+    color: #78BBFF;
+    font-size: 1.25rem;
+}
+a.order{
+    background-color: #C41047;
+    border-radius: 0;
+    /* box-shadow: 5px 5px 0 #000E1C; */
+    border: none;
+    margin-top: 40px;
+}
+a.order:hover{
+    background-color: #920731;
+    box-shadow: none;
+    border: none;
+}
+a.order:active:focus{
+    background-color: #920731;
+    /* box-shadow: 0px 0px 0 #000E1C !important; */
+}
+a.order:focus{
+    background-color: #920731;
+    /* box-shadow: 0px 0px 0 #000E1C !important; */
+}
+/** ============================ HERO HEADER ============================= */
+/** ============================  FEATURES   ============================= */
+.features {
+    background: url('assets/nodeBG.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 80vmin;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 60px;
+}
+.features .titles{
+    background-color: #FEFEFD;
+    padding: 10px 35px;
+    display: inline-block;
+    box-sizing: content-box;
+}
+.container .titles h2{
+    font-size: 2.25rem;
+    font-weight: 600;
+    font-family: "Cairo SemiBold", sans-serif;
+}
+.container .titles h2 span{
+    font-weight: 900;
+    font-family: "Cairo Black", sans-serif;
+    text-transform: uppercase;
+}
+.container .titles h4{
+    font-size: 1.125rem;
+    font-weight: 400;
+    font-family: "Cairo", sans-serif;
+}
+.features .feature-cards{
+    margin-top: 80px;
+    min-height: 440px;
+}
+.features .feature-cards .cards{
+    background: #000E1C;
+    border-radius: 10px 10px 0 0;
+    color: #FEFEFD;
+    margin-bottom: 20px;
+}
+/* .features .feature-cards .cards */
+.features .feature-cards .cards .head{
+    font-size: 5rem;
+    margin-top: 50px;
+}
+.features .feature-cards .cards .title{
+    font-size: 1.375rem;
+    font-weight: 700;
+    font-family: "Cairo Bold", sans-serif;
+    margin: 36px 0;
+}
+.features .feature-cards .cards .content{
+    font-size: 1.125rem;
+}
+/** ============================  FEATURES   ============================= */
+/** ============================  PAYMENTS   ============================= */
+.payment {
+    background: url('assets/paymentBG.svg');
+    background-size: cover;
+    background-position: center;
+    min-height: 70vmin;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-bottom: 60px;
+    color: #FEFEFD;
+}
+.payment .titles {
+    color: #FEFEFD;
+}
+.payment .payment-list{
+    margin-top: 50px;
+    color: #244565;
+    font-size: 3.625rem;
+}
+.payment .calltoaction{
+    margin: 60px auto;
+}
+.payment .req{
+    padding-bottom: 45px;
+}
+.payment .req h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.payment .requirments{
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 400;
+}
+/** ============================  PAYMENTS   ============================= */
+/** ============================  Contact US   ============================= */
+.contact-us{
+    background-color: #FEFEFD;
+    min-height: 70vmin;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: #FEFEFD;
+}
+.contact-us .titles{
+    color: #000E1C;
+}
+.contact-us .form {
+    padding-right: 0px;
+}
+.contact-us .form .col:last-child{
+    padding-right: 0px;
+}
+.contact-us .field{
+    color: #FEFEFD;
+    background-color: #000E1C;
+    /* box-shadow: 5px 5px 0 #920731 !important; */
+    border: none;
+    border-radius: 0;
+    margin: 20px 0;
+    line-height: 1.5;
+    /* padding: 6px auto; */
+    /* box-sizing: content-box; */
+}
+input.send{
+    background-color: #C41047;
+    border-radius: 0;
+    /* box-shadow: 5px 5px 0 #000E1C; */
+    border: none;
+    margin-left: 15px;
+    text-align: center;
+    width: 160px;
+    font-family: "Cairo", "Font Awesome 5 Brands", "Font Awesome 5 Free";
+}
+input.send:hover{
+    background-color: #920731;
+    box-shadow: none;
+    border: none;
+}
+input.send:active:focus{
+    background-color: #920731;
+    /* box-shadow: 0px 0px 0 #000E1C !important; */
+}
+input.send:focus{
+    background-color: #920731;
+    /* box-shadow: 0px 0px 0 #000E1C !important; */
+}
+/** ============================  Contact US   ============================= */
+/** ============================  About US   ============================= */
+.about-us{
+    background: url('assets/AboutUSBG.svg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    text-align: center;
+    color: #FEFEFD;
+    padding-top: 250px;
+}
+.about-us .titles{
+    color: #FEFEFD;
+}
+.about-us .title h2{
+    font-size: 2.375rem;
+}
+.about-us .content{
+    margin-top: 80px;
+    text-align: justify;
+    -moz-text-align-last: center;
+    text-align-last: left;
+}
+.about-us .content p{
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-size: 1.5rem;
+}
+.about-us .social-media-list{
+    margin-top: 80px;
+}
+.about-us .social-media-list ul {
+    list-style: none;
+}
+.about-us .social-media-list ul li a{
+    color: #FEFEFD;
+    font-size: 1.9375rem;
+}
+.about-us .copyright{
+    margin-top: 80px;
+    padding-bottom: 60px;
+}
+/** ============================  About US   ============================= */
